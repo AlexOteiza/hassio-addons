@@ -2,7 +2,7 @@ FROM docker:27-cli AS dockerfile_source
 
 RUN apk add --no-cache git
 
-RUN git clone --branch ring-oauth-fix https://github.com/AlexOteiza/go2rtc.git /tmp/go2rtc
+RUN git clone --branch dev https://github.com/AlexOteiza/go2rtc.git /tmp/go2rtc
 
 
 FROM ghcr.io/home-assistant/base:latest
