@@ -6,7 +6,7 @@ image: alexoteiza/go2rtc
 arch: [ amd64, aarch64, i386, armv7 ]
 
 # https://developers.home-assistant.io/docs/add-ons/configuration
-version: main
+version: dev
 slug: go2rtc-alex
 init: false
 startup: system
