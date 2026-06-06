@@ -2,7 +2,6 @@
 name: go2rtc (alex)
 description: Main version from AlexOteiza/go2rtc
 url: https://github.com/AlexOteiza/go2rtc/tree/main
-image: alexoteiza/go2rtc
 arch: [ amd64, aarch64, i386, armv7 ]
 
 # https://developers.home-assistant.io/docs/add-ons/configuration
